@@ -18,3 +18,6 @@ class Bit(int):
     def __repr__(self):
         cls = type(self).__name__
         return f"{cls}({int(self)})"
+    
+    def __str__(self):
+        return str(int(self))
